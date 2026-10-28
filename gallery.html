@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Zander Walker, ID: 1698647-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantheon Reforged - Gallery</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="hamburger">☰</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html" class="current">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="gods">
+    <h2>Gods</h2>
+    <div class="figure-row">
+    <figure>
+        <img src="images/zues.png" alt="Zeus gallery image, reimagined for games holding a lightning bolt">
+        <figcaption>Zeus</figcaption>
+    </figure>
+    <figure>
+        <img src="images/waterman.png" alt="Poseidon reimagined as a modern game character, holding a trident">
+        <figcaption>Poseidon</figcaption>
+    </figure>
+    <figure>
+        <img src="images/hades.png" alt="Hades reimagined as a dark modern game villain, wielding a staff">
+        <figcaption>Hades</figcaption>
+    </figure>
+    </div>
+</section>
+
+<section class="monsters">
+    <h2>Monsters</h2>
+    <div class="figure-row">
+    <figure>
+        <img src="images/harpie.png" alt="Harpie reimagined as a modern game character, flying with wings">
+        <figcaption>Harpie</figcaption>
+    </figure>
+    <figure>
+        <img src="images/cetus.png" alt="Cetus reimagined as a modern game character, a sea monster">
+        <figcaption>Cetus</figcaption>
+    </figure>
+    <figure>
+        <img src="images/bigdog.png" alt="Cerberus reimagined as a modern game character, a large canine monster">
+        <figcaption>Cerberus</figcaption>
+    </figure>
+    </div>
+</section>
+<!-- Feature for finding your god and your monster, side by side -->
+<section class="fate-feature">
+    <h2>Which God are you? Which Monster do you face?</h2>
+    <div class="fate-row">
+
+        <div class="fate-column">
+            <div class="image-finder-form">
+                <p class="image-question">Youngest child, Middle or Oldest?</p>
+                <input type="text" class="image-input" placeholder="youngest, middle, or oldest?">
+                <button class="btn-find-image">Show me</button>
+                <p class="recommendation"></p>
+            </div>
+            <figure class="result-figure">
+                <img class="result-image" src="" alt="">
+                <figcaption class="result-caption"></figcaption>
+            </figure>
+        </div>
+
+        <div class="fate-column">
+            <div class="monster-finder-form">
+                <p class="monster-question">Heights, the Ocean, or Fire?</p>
+                <input type="text" class="monster-input" placeholder="heights, ocean, or fire?">
+                <button class="btn-find-monster">Show me</button>
+                <p class="monster-recommendation"></p>
+            </div>
+            <figure class="monster-result-figure">
+                <img class="monster-result-image" src="" alt="">
+                <figcaption class="monster-result-caption"></figcaption>
+            </figure>
+        </div>
+
+    </div>
+    <p class="fate-easter-egg"></p>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
